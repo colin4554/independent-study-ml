@@ -24,7 +24,7 @@ def get_fin_data(tickerlist, report_type):
 # returns unadjusted quarterly fin data
 tickerlist = ['AAPL', 'GOOGL']
 
-# (Q = quarterly, A = Annual, QA = quarterly annualized)
+# report_type: Q = quarterly, A = Annual, QA = quarterly annualized
 df = get_fin_data(tickerlist, 'Q')
 
 # stores data in csv
